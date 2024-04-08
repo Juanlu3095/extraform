@@ -155,4 +155,4 @@ register_activation_hook( __FILE__, 'activar' );
 register_deactivation_hook( __FILE__, 'desactivar' );
 
 // Hook para enlazar la función de borrado del plugin
-//register_uninstall_hook( __FILE__, 'borrar' );
+register_uninstall_hook( __FILE__, 'borrar' );
