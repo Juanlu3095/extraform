@@ -17,7 +17,6 @@ echo '<h1 class="wp-heading-inline">' . get_admin_page_title() . '</h1>';
     <div class="lista-shortcode">
         
             <p><strong>[formulario_cumpleaños]</strong><br> Permite añadir el formulario para la reserva de los cumpleaños.<p>
-            <p><strong>[formulario_campamentos]</strong><br> Permite añadir el formulario para la reserva de los campamentos.<p>
         
     </div>
 
