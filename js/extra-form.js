@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    console.log(solicitudesAjax);
+    //console.log(solicitudesAjax);
 
     //Muestra ventana modal cuando hacemos click en botón 'Añadir nuevo'
     $("#btn-nuevo-form").click(function(){
