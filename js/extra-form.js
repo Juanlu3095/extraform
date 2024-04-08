@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
             type:"POST",
             url: url,
             data: { //ARRAY DE DATOS
-                action: "mostraregistro", // viene del alias del hook de laravel-bd, en la función EliminarEncuesta()
+                action: "mostraregistro", // viene del alias del hook de extraform.php, en la función MostrarRegistro()
                 nonce: solicitudesAjax.seguridad, // Wordpress necesita este token de seguridad que lo obtenemos de wp_localize_script
                 id: id,
             },
@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
             type:"POST",
             url: url,
             data: { //ARRAY DE DATOS
-                action: "peticioneliminar", // viene del alias del hook de laravel-bd, en la función EliminarEncuesta()
+                action: "peticioneliminar", // viene del alias del hook de extraform.php, en la función EliminarRegistroForm()
                 nonce: solicitudesAjax.seguridad, // Wordpress necesita este token de seguridad que lo obtenemos de wp_localize_script
                 id: id,
             },
