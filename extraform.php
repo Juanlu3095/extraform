@@ -66,7 +66,7 @@ function script_propio($hook){
 add_action('admin_enqueue_scripts', 'script_propio');
 
 //Función para eliminar los registros de los formularios cuando pinchamos en 'borrar'
-function EliminarEncuesta(){
+function EliminarRegistroForm(){
     $nonce = $_POST['nonce']; // este valor viene de los datos que se envían a través de la solicitud Ajax
     if(!wp_verify_nonce($nonce, 'seg')){ // verificamos si el nonce es correcto
         die('No tiene permisos para ejecutar esta petición.');
@@ -81,7 +81,7 @@ function EliminarEncuesta(){
      return true;
 }
 
-add_action('wp_ajax_peticioneliminar','EliminarEncuesta');
+add_action('wp_ajax_peticioneliminar','EliminarRegistroForm');
 
 //Función para mostrar los datos del registro en la ventana modal al pulsar el botón 'Ver'
 function MostrarRegistro(){
