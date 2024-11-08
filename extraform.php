@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Extra Form
-Plugin URI: http://jcooldevelopment.es
+Plugin URI: https://juanlu-portfolio.infinityfreeapp.com/
 Description: Permite incluir un formulario personalizado para recoger información del cliente antes de comprar un producto.
 Version: 1.0.0
 Author: jcooldevelopment
